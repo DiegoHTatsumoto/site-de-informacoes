@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header .container {
+    display: flex;
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+}
+
+h1 {
+    margin-left: 16px;
+    display: inline;
+}
+
+header .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 16px;
+
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 100px;*/
+    width: 100%;
+}
+
+section {
+    padding: 16px;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article h3 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.articles article a {
+    background-color:blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p, .articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0,255,0,0.1);
+}
+
+#sports .articles article a {
+    background-color: greenyellow;
+}
+
+#economy {
+    background-color: rgba(155, 155, 32, 0.781);
+}
+
+#economy .articles article a {
+    background-color: rgba(185, 85, 49, 0.945);
+}
+
+#tecnologia {
+    background-color: rgba(199, 179, 143, 0.945);
+}
+
+#tecnologia article a {
+    background-color: rgb(126, 91, 40);
+}
+
+#animais {
+    background-color: rgb(136, 157, 175);
+}
+
+#animais article a {
+    background-color: rgb(92, 92, 165);
+}
